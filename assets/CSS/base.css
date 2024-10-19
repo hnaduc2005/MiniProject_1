@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap'); /* Link nhúng icons */
+
+/* Đặt các biến */
+:root {
+    --color-one: #103178;
+    --color-two: #E9B72F;
+    --color-three: #5C6D90;
+    --color-four: #F0F2F5;
+}
+
+* {
+    box-sizing: border-box; /* Thuộc tính border-box để đặt kích thước bao gồm content, padding và border. Thay thế cho content-box mặc định chỉ gồm content*/
+}
+
+body {
+    font-family: "Yeseva One", serif; /* Font chữ cho toàn bộ trang web */
+}
+
+/* Phần container để hiển thị nội dung của trang web (cách với lề một khoảng nhất định) */
+.container {
+    width: 100%; /* Chiều rộng của container toàn bộ trang */
+    max-width: 1200px; /* Chiều rộng tối đa là 1200px -> Đối với màn hình lớn hơn 1200px sẽ có khoảng trống */
+    margin-left: auto; /* Tự động điều chỉnh  khoảng cách bên trái */
+    margin-right: auto; /* Tự động điều chỉnh khoảng cách bên phải kết hợp với  margin-left để căn giữa cho container*/
+}
+
+a {
+    text-decoration: none;  /* Xóa bỏ đường gạch dưới của đoạn link */
+}
